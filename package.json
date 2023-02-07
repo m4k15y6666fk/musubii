@@ -1,7 +1,7 @@
 {
   "name": "musubii",
   "description": "Simple CSS Framework for JP",
-  "version": "7.2.0",
+  "version": "7.2.0-1",
   "main": "dist/musubii.css",
   "type": "module",
   "files": [
@@ -9,9 +9,7 @@
     "src"
   ],
   "license": "CC0-1.0",
-  "homepage": "https://musubii.qranoko.jp",
-  "repository": "https://github.com/qrac/musubii",
-  "bugs": "https://github.com/qrac/musubii/issues",
+  "repository": "https://github.com/m4k15y6666fk/musubii",
   "keywords": [
     "css",
     "sass",
@@ -21,13 +19,15 @@
     "musubii"
   ],
   "author": {
-    "name": "Qrac",
-    "url": "https://qrac.jp"
+    "name": "M4K-15Y-6666-FK",
+    "email": "m4k15y6666fk@outlook.com"
   },
-  "organization": {
-    "name": "QRANOKO",
-    "url": "https://qranoko.jp"
-  },
+  "contributors": [
+    {
+      "name": "Qrac",
+      "url": "https://qrac.jp"
+    }
+  ],
   "scripts": {
     "build": "node ./src",
     "test": "node ./test",
@@ -48,12 +48,12 @@
     "android 4.4"
   ],
   "devDependencies": {
-    "autoprefixer": "^10.4.7",
-    "clean-css": "^5.3.0",
-    "fs-extra": "^10.1.0",
-    "postcss": "^8.4.13",
+    "autoprefixer": "^10.4.13",
+    "clean-css": "^5.3.2",
+    "fs-extra": "^11.1.0",
+    "postcss": "^8.4.21",
     "postcss-flexbugs-fixes": "^5.0.2",
-    "postcss-sort-media-queries": "^4.2.1",
-    "sass": "^1.51.0"
+    "postcss-sort-media-queries": "^4.3.0",
+    "sass": "^1.58.0"
   }
 }
