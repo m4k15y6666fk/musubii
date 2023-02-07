@@ -56,9 +56,9 @@ $flex-important: if($option-important-flex == true, !important, null) !default;
 }
 
 @mixin musubii-style-flex-split($i) {
-  flex: 0 0 (100% / $flex-split * $i) $flex-important;
-  width: (100% / $flex-split * $i) $flex-important;
-  max-width: (100% / $flex-split * $i) $flex-important;
+  flex: 0 0 calc(100% / $flex-split * $i) $flex-important;
+  width: calc(100% / $flex-split * $i) $flex-important;
+  max-width: calc(100% / $flex-split * $i) $flex-important;
 }
 
 @mixin musubii-style-flex-full() {
